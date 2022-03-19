@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Fredoka+One&family=Patua+One&display=swap');
+
+*{
+    /* background-color: rgb(7, 0, 0); */
+    
+    
+    /* color: red; */
+    /* box-sizing: border-box; */
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(7, 0, 0);
+
+    
+}
+
+
+nav{
+    padding: 0 0 0 8%;
+    margin: 0 0 10rem 0;
+    gap: 1%;
+    color: rgb(107, 0, 0);
+    display: flex;
+}
+
+
+.nav-img{
+    height: 10rem;
+    width: auto;
+    border-radius: 50%;
+    box-shadow: 0px 0px 32px aqua;
+    padding: 0.4rem;
+    margin: 0px 2rem;
+    cursor: pointer;
+    background-image: linear-gradient(to bottom, rgb(0, 22, 11) 10%, rgb(0, 88, 88) 40%,aqua, rgb(0, 21, 22));
+
+    
+   
+    
+}
+
+ul{
+    display: flex;
+    align-items:center;
+    justify-content: flex-end;
+    padding-right: 3rem;
+    width: 100%;
+    gap: 1rem;
+    
+    
+}
+
+
+li{
+    list-style: none;
+    justify-content: space-around;
+    padding-left: 1.5rem;
+    font-size: 180%;
+    font-family:'Patua One', cursive;
+    text-shadow: -2px 1px 3px rgb(0, 204, 255);
+    cursor: pointer;
+    
+   
+
+}
+
+div{
+    /* height: 10rem; */
+    justify-content: flex-start;
+     
+}
+
+
+
+
+
+
+
+footer{
+    /* display: flex; */
+    height: 5rem;
+    padding-bottom: 0px; 
+}
+
+::-webkit-scrollbar{
+    width: 0;
+}
+#scrollbar{
+    position: fixed;
+    top:0;
+    right: 0;
+    width: 13px;
+    height: 100%;
+    border-radius: 4px;
+    background: linear-gradient(to top, rgb(255, 0, 0),rgb(90, 0, 0),#000000);
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+    margin: 5% auto;
+    
+
+
+}
+
+.allcards{
+    text-align: center;
+    text-overflow: ellipsis;
+    /* max-height: 50vh; */
+
+    /* background-color: rgb(24, 0, 0); */
+    /* position: relative; */
+
+    
+}
+
+.card{
+
+    padding: 0.8rem;
+    background-image: linear-gradient(to bottom, rgba(80, 1, 1, 1) 5%, rgba(50, 0, 0, 0) 40%), linear-gradient(to top, rgb(0, 0, 0) 100%, rgb(0, 0, 0) 90%);
+    background-clip: padding-box, border-box;
+
+    width: 18rem;
+    height: 67vh;
+    min-height: 27rem;
+    margin: 3rem;
+    color: white;
+    box-shadow: -20px 15px 10px rgb(37, 0, 0),-10px -10px 500px rgba(255, 57, 57, 0.5);
+    border-radius: 20px;
+    display: inline-block;
+    vertical-align: top;
+    cursor: pointer;
+    background-color: rgb(10, 0, 0);
+
+    text-overflow: ellipsis;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    
+
+    
+    
+    
+    
+    
+    
+}
+
+img{
+    width: 18rem;
+    border-radius: 15px 15px 5px 5px;
+    
+   
+    
+
+}
+.category{
+    color: rgba(0, 195, 255, 0.856);
+    
+
+}
+
+.card-text{
+    background-color:auto;
+    height: border-box;
+    max-height: 16.5rem;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border-radius: 20px;
+
+    overflow-y: scroll;
+    text-overflow: ellipsis;
+
+    
+}
